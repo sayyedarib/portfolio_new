@@ -1,10 +1,9 @@
 import { Container } from "@mantine/core";
 import ProjectCard from "./ProjectCard";
-import MaStoreImg from "../assets/images/projects/ma_store.png";
-import EbayImg from "../assets/images/projects/ebay.png";
-import TicTacToeImg from "../assets/images/projects/tic-tac-toe.png";
-import LandingPageImg from "../assets/images/projects/landing-page.png";
-import LibraryImg from "../assets/images/projects/library.png";
+import Donorlink from "../assets/images/projects/Donorink.png";
+import Textutils from "../assets/images/projects/Textutils.png";
+import DSA_Projects from "../assets/images/projects/DSA_projects.png";
+import Minor_project from "../assets/images/projects/Minor_project.jpg";
 import "../assets/css/projects.css";
 
 type Props = {};
@@ -18,89 +17,64 @@ function Projects({}: Props) {
         <ul className="projectLists">
           <li>
             <ProjectCard
-              projectLiveLink="https://mastore-frontend.netlify.app/"
-              projectRepoLink="https://github.com/muhammadjufry/mastore"
-              image={MaStoreImg}
-              title="MA STORE"
+              projectLiveLink="https://donorlink-frontend.vercel.app/"
+              projectRepoLink="https://github.com/sayyedarib/DonorLink"
+              image={Donorlink}
+              title="DonorLink"
               oText="( 75% on progress )"
-              description="An E-commerce where you buy and sell from another online shop like amazon, ebay,
-              flipkart, etc"
+              description="User friendly platform that connects donors , volunteers and people in need"
               projectSkills={[
-                "HTML5",
-                "CSS3",
-                "React.js",
-                "PostgreSQL",
+                "NextJS",
+                "NodeJS",
+                "MongoDB",
+                "TailwindCSS",
                 "Nodemailer",
-                "RESPONSIVE WEB DESIGN",
               ]}
             />
           </li>
           <li>
             <ProjectCard
-              projectLiveLink="https://ebay-clone-muhammad.vercel.app/"
-              projectRepoLink="https://github.com/muhammadjufry/ebay-clone"
-              image={EbayImg}
-              title="Ebay Clone"
-              description="A cryptocurrency Ecommerce where you can add and buy product using your Metamask account extension"
+              projectLiveLink="https://sayyedarib.github.io/DSA_project/"
+              projectRepoLink="https://github.com/sayyedarib/DSA_project"
+              image={DSA_Projects}
+              title="DSA Projects"
+              description="Tree visulaizer,sudoku solver and N-Queen Solver"
               projectSkills={[
                 "HTML5",
                 "CSS3",
-                "TypeScript",
-                "Thirdweb",
-                "Tailwind CSS",
-                "React.js",
-                "RESPONSIVE WEB DESIGN",
+                "Javacript",
+                "Data Structures",
+                "Algorithms",
               ]}
             />
           </li>
           <li>
             <ProjectCard
-              projectLiveLink="https://tic-tac-toe-game2.vercel.app/"
-              projectRepoLink="https://github.com/muhammadjufry/tic-tac-toe"
-              image={TicTacToeImg}
-              title="Tic Tac Toe"
-              description="On this game you can play with your friends or against computer with completely
-              responsive web design"
+              projectLiveLink="https://text-utils-eight-gilt.vercel.app/"
+              projectRepoLink="https://github.com/sayyedarib/TextUtils"
+              image={Textutils}
+              title="TextUtils"
+              description="Count number of words, remove spaces, capitalize letters and more..."
               projectSkills={[
                 "HTML5",
-                "CSS3",
-                "Typescript",
-                "CSS",
-                "Next.js",
-                "React.js",
-                "RESPONSIVE WEB DESIGN",
-              ]}
+              "CSS",
+              "React.js",
+              "RESPONSIVE WEB DESIGN",
+            ]}
             />
           </li>
           <li>
             <ProjectCard
-              projectLiveLink="https://muhammadjufry.github.io/odin-landingPage/"
-              projectRepoLink="https://github.com/muhammadjufry/odin-landingPage"
-              image={LandingPageImg}
-              title="Landing Page"
-              description="Responsive landing page project that had banner, some information, and some other sections"
+              projectLiveLink="https://drive.google.com/file/d/1Neql2rB9dBQobwwxTJFtgko4KtOcUbV0/view?usp=sharing"
+              projectRepoLink="https://github.com/sayyedarib/minor_project"
+              image={Minor_project}
+              title="Speech Recognition RNN Model(UI pending)"
+              description="Home Automation by speech recognition"
               projectSkills={[
-                "HTML5",
-                "CSS3",
-                "JAVASCRIPT",
-                "DOM",
-                "RESPONSIVE WEB DESIGN",
-              ]}
-            />
-          </li>
-          <li>
-            <ProjectCard
-              projectLiveLink="https://muhammadjufry.github.io/Library/"
-              projectRepoLink="https://github.com/muhammadjufry/Library"
-              image={LibraryImg}
-              title="Library Book"
-              description="This is a website for user to list their book but it won't save in localstorage it will save in array type"
-              projectSkills={[
-                "HTML5",
-                "CSS3",
-                "JavaScript",
-                "DOM",
-                "RESPONSIVE WEB DESIGN",
+                "RNN",
+                "Deep Learning",
+                "Machine Learning",
+                "Arduino",
               ]}
             />
           </li>

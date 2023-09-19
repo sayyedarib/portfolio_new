@@ -29,8 +29,8 @@ function App() {
     <>
       <HeaderComponent links={data} />
       <Hero />
-      <OpenSourceProjects />
       <Projects />
+      <OpenSourceProjects />
       <Contact />
     </>
   );

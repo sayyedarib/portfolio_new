@@ -2,11 +2,10 @@ import React from "react";
 import { Container } from "@mantine/core";
 import "../assets/css/opensourceprojects.css";
 import OpenSourceProjectCard from "./OpenSourceProjectCard";
-import lightdashLogo from "../assets/images/opensource_projects_logo/lightdash.png";
+import zulipLogo from "../assets/images/opensource_projects_logo/zulip-icon.png";
 import amupediaLogo from "../assets/images/opensource_projects_logo/amupedia.png";
 import grabternLogo from "../assets/images/opensource_projects_logo/grabtern.jpg";
-import amplicationLogo from "../assets/images/opensource_projects_logo/amplication.png";
-import freeresourceshubLogo from "../assets/images/opensource_projects_logo/freeresourceshubLogo.png";
+import layer5Logo from "../assets/images/opensource_projects_logo/layer5.png";
 
 type Props = {};
 
@@ -14,18 +13,18 @@ function OpenSourceProjects({}: Props) {
   return (
     <section className="opensourceprojects" id="opensourceprojects">
       <Container mb={30}>
-        <h3>Here some projects that I have open source to it:</h3>
+        <h3>Here some open-projects that I have contributed to:</h3>
         <br />
         <ul className="opensourceprojectsLists">
           <li>
             <OpenSourceProjectCard
-              repoName="Lightdash"
-              repoDescription="Open source BI for teams that move fast ⚡️"
-              repoLink="https://github.com/lightdash/lightdash"
-              repoLive="https://lightdash.com"
+              repoName="Zulip"
+              repoDescription="Real-time chat with an email threading model."
+              repoLink="https://github.com/zulip/zulip"
+              repoLive="https://zulip.com/"
               howManyPr="1"
-              logo={lightdashLogo}
-              prLink="https://github.com/lightdash/lightdash/pull/5028"
+              logo={zulipLogo}
+              prLink="https://github.com/zulip/zulip/pull/26622"
             />
           </li>
           <li>
@@ -36,7 +35,7 @@ function OpenSourceProjects({}: Props) {
               repoLive="https://grabtern.com"
               howManyPr="30"
               logo={grabternLogo}
-              prLink="https://github.com/anmode/grabtern-frontend/pulls?q=is%3Apr+is%3Aclosed+author%3Amuhammadjufry"
+              prLink="https://github.com/anmode/grabtern-frontend/pulls?q=is%3Apr+is%3Aclosed+author%3Asayyedarib"
             />
           </li>
           <li>
@@ -47,29 +46,18 @@ function OpenSourceProjects({}: Props) {
               repoLive="https://amupedia.com"
               howManyPr="5"
               logo={amupediaLogo}
-              prLink="https://github.com/amupedia2021/Project-Amupedia/pulls?q=is%3Apr+is%3Aclosed+author%3Amuhammadjufry"
+              prLink="https://github.com/amupedia2021/Project-Amupedia/pulls?q=is%3Apr+is%3Aclosed+author%3Asayyedarib"
             />
           </li>
           <li>
             <OpenSourceProjectCard
-              repoName="freeresourceshub"
-              repoDescription="The largest organized list of free tools for..."
-              repoLink="https://github.com/sarvesh4396/freeresourceshub"
-              repoLive="https://freeresourceshub.netlify.app/"
+              repoName="Layer5"
+              repoDescription="Layer5's cloud native application..."
+              repoLink="https://github.com/layer5io"
+              repoLive="https://layer5.io/"
               howManyPr="1"
-              logo={freeresourceshubLogo}
-              prLink="https://github.com/sarvesh4396/freeresourceshub/pull/5"
-            />
-          </li>
-          <li>
-            <OpenSourceProjectCard
-              repoName="Amplication"
-              repoDescription="Amplication's website!"
-              repoLink="https://github.com/amplication/amplication-site"
-              repoLive="https://amplication.com"
-              howManyPr="1"
-              logo={amplicationLogo}
-              prLink="https://github.com/amplication/amplication-site/pull/231"
+              logo={layer5Logo}
+              prLink="https://github.com/layer5io/layer5/pull/4252"
             />
           </li>
         </ul>

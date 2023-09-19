@@ -120,7 +120,7 @@ export default function HeaderComponent({ links }: Props) {
   return (
     <Header height={HEADER_HEIGHT} className={classes.root}>
       <Container className={classes.header}>
-        <h1 style={{ fontSize: "19px" }}>Muhammad Jufry</h1>
+        <h1 style={{ fontSize: "19px" }}>Sayyed Arib Hussain</h1>
         <Group spacing={5} className={classes.links}>
           {items}
         </Group>

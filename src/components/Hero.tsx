@@ -16,9 +16,9 @@ function Hero({}: Props) {
     <section className="hero">
       <Container>
         <div className="left">
-          <h2>Hi! My name is Muhammad Jufry</h2>
+          <h2>Hi! My name is Sayyed Arib Hussain</h2>
           <span className="headline">
-            Head of Technical Team at Grabtern | Full Stack web developer
+            Full Stack web developer | Open Source Contributor
           </span>
           <p>
             Impact-oriented Full Stack developer in creating many full stack
@@ -30,22 +30,17 @@ function Hero({}: Props) {
           </p>
           <ul className="socialLinks">
             <li>
-              <a href="https://www.linkedin.com/in/muhammad-jufry/">
+              <a href="https://www.linkedin.com/in/sayyed-arib-hussain-1220b5187/">
                 <IconBrandLinkedin />
               </a>
             </li>
             <li>
-              <a href="https://github.com/muhammadjufry/">
+              <a href="https://github.com/sayyedarib/">
                 <IconBrandGithub />
               </a>
             </li>
             <li>
-              <a href="https://muhammadjufry.medium.com/">
-                <IconBrandMedium />
-              </a>
-            </li>
-            <li>
-              <Tooltip label="sayyidmuhammad878@gmail.com">
+              <Tooltip label="sayyedaribhussain4321@gmail.com">
                 <IconMail />
               </Tooltip>
             </li>

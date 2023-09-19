@@ -8,13 +8,13 @@ function Contact({}: Props) {
     e.preventDefault();
     const data = {
       from_name: document.querySelector<any>(".yourName div input").value,
-      to_name: "Muhammad Jufry",
+      to_name: "Sayyed Arib Hussain",
       from_email: document.querySelector<any>(".yourEmail div input").value,
       message: document.querySelector<any>(".yourMessage div textarea").value,
     };
-    console.log(data);
+
     emailjs
-      .send("service_p8hqck4", "template_7xrswpp", data, "mgTgN8I2OWQdvqVRA")
+      .send("service_duaez5q", "template_2b58isf", data, "zfmkTzNiNnLuAu5SS")
       .then(
         (result) => {
           console.log(result.text);
