@@ -4,6 +4,7 @@ import Donorlink from "../assets/images/projects/Donorink.png";
 import Textutils from "../assets/images/projects/Textutils.png";
 import DSA_Projects from "../assets/images/projects/DSA_projects.png";
 import Minor_project from "../assets/images/projects/Minor_project.jpg";
+import Story_Generator from "../assets/images/projects/Story_Generator.png"
 import "../assets/css/projects.css";
 
 type Props = {};
@@ -50,21 +51,6 @@ function Projects({}: Props) {
           </li>
           <li>
             <ProjectCard
-              projectLiveLink="https://text-utils-eight-gilt.vercel.app/"
-              projectRepoLink="https://github.com/sayyedarib/TextUtils"
-              image={Textutils}
-              title="TextUtils"
-              description="Count number of words, remove spaces, capitalize letters and more..."
-              projectSkills={[
-                "HTML5",
-              "CSS",
-              "React.js",
-              "RESPONSIVE WEB DESIGN",
-            ]}
-            />
-          </li>
-          <li>
-            <ProjectCard
               projectLiveLink="https://drive.google.com/file/d/1Neql2rB9dBQobwwxTJFtgko4KtOcUbV0/view?usp=sharing"
               projectRepoLink="https://github.com/sayyedarib/minor_project"
               image={Minor_project}
@@ -76,6 +62,36 @@ function Projects({}: Props) {
                 "Machine Learning",
                 "Arduino",
               ]}
+            />
+          </li>
+          <li>
+            <ProjectCard
+              projectLiveLink="https://github.com/sayyedarib/storygenerator"
+              projectRepoLink="https://github.com/sayyedarib/storygenerator"
+              image={Story_Generator}
+              title="ChatGpt-clone"
+              description="Developed using openai-API, generates out of given context..."
+              projectSkills={[
+              "TailwindCSS",
+              "React.js",
+              "Openai API",
+              "RESPONSIVE WEB DESIGN",
+            ]}
+            />
+          </li>
+          <li>
+            <ProjectCard
+              projectLiveLink="https://text-utils-eight-gilt.vercel.app/"
+              projectRepoLink="https://github.com/sayyedarib/TextUtils"
+              image={Textutils}
+              title="TextUtils"
+              description="Count number of words, remove spaces, capitalize letters and more..."
+              projectSkills={[
+                "HTML5",
+              "CSS",
+              "React.js",
+              "RESPONSIVE WEB DESIGN",
+            ]}
             />
           </li>
         </ul>
