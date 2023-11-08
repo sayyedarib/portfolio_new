@@ -21,12 +21,7 @@ function Hero({}: Props) {
             Full Stack web developer | Open Source Contributor
           </span>
           <p>
-            Impact-oriented Full Stack developer in creating many full stack
-            projects using various technology and open source to github to fix
-            their projects using Javascript, Typescript, React.js, Vite.js and
-            more... and also I have been worked at Amupedia as Web developer
-            designing/debugging/fixing the frontend & backend system without any
-            errors and with completely responsive web design and fast perfomance
+          As an enthusiastic and self-motivated individual, I am currently pursuing a Bachelor's degree in Artificial Intelligence from Aligarh Muslim University. My passion for programming has led me to develop skills in a range of languages including C++, JavaScript, and Python. I am also interested in the latest web technologies, including React.js and Next.js, and have experience working on local websites. Additionally, I am intrigued by the fields of Deep Learning and Natural Language Processing. I believe in the power of teamwork and actively seek opportunities to collaborate and learn from others. Feel free to connect with me to discuss anything related to AI, programming or web development.
           </p>
           <ul className="socialLinks">
             <li>
