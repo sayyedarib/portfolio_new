@@ -52,7 +52,7 @@ function OpenSourceProjectCard({
           </Text>
         </div>
       </div>
-      <Group ml={5} mt={10}>
+      <Group ml={5} mt={14}>
         <a href={repoLink} style={{ height: "25px" }}>
           <IconBrandGithub color="grey" />
         </a>

@@ -6,6 +6,8 @@ import zulipLogo from "../assets/images/opensource_projects_logo/zulip-icon.png"
 import amupediaLogo from "../assets/images/opensource_projects_logo/amupedia.png";
 import grabternLogo from "../assets/images/opensource_projects_logo/grabtern.jpg";
 import layer5Logo from "../assets/images/opensource_projects_logo/layer5.png";
+import mondayUI from "../assets/images/opensource_projects_logo/monday_ui.png";
+import Ockam from "../assets/images/opensource_projects_logo/Ockam.png"
 
 type Props = {};
 
@@ -22,9 +24,9 @@ function OpenSourceProjects({}: Props) {
               repoDescription="Real-time chat with an email threading model."
               repoLink="https://github.com/zulip/zulip"
               repoLive="https://zulip.com/"
-              howManyPr="1"
+              howManyPr="4"
               logo={zulipLogo}
-              prLink="https://github.com/zulip/zulip/pull/26622"
+              prLink="https://github.com/zulip/zulip/pulls?q=is%3Apr+author%3Asayyedarib"
             />
           </li>
           <li>
@@ -33,9 +35,9 @@ function OpenSourceProjects({}: Props) {
               repoDescription="Connecting the mentors and creating a network"
               repoLink="https://github.com/anmode/grabtern-frontend"
               repoLive="https://grabtern.com"
-              howManyPr="30"
+              howManyPr="28"
               logo={grabternLogo}
-              prLink="https://github.com/anmode/grabtern-frontend/pulls?q=is%3Apr+is%3Aclosed+author%3Asayyedarib"
+              prLink="https://github.com/anmode/grabtern-frontend/pulls?q=is%3Apr+author%3Asayyedarib"
             />
           </li>
           <li>
@@ -51,13 +53,35 @@ function OpenSourceProjects({}: Props) {
           </li>
           <li>
             <OpenSourceProjectCard
+              repoName="monday-ui-react-core"
+              repoDescription="UI resources for application development in React.js"
+              repoLink="https://github.com/mondaycom/monday-ui-react-core"
+              repoLive="https://style.monday.com/"
+              howManyPr="1"
+              logo={mondayUI}
+              prLink="https://github.com/mondaycom/monday-ui-react-core/pulls?q=is%3Apr+author%3Asayyedarib"
+            />
+          </li>
+          <li>
+            <OpenSourceProjectCard
+              repoName="ockam"
+              repoDescription="Orchestrate end-to-end encryption, cryptographic identities..."
+              repoLink="https://github.com/build-trust/ockam"
+              repoLive="https://ockam.io/"
+              howManyPr="1"
+              logo={Ockam}
+              prLink="https://github.com/build-trust/ockam/pulls?q=is%3Apr+author%3Asayyedarib"
+            />
+          </li>
+          <li>
+            <OpenSourceProjectCard
               repoName="Layer5"
-              repoDescription="Layer5's cloud native application..."
+              repoDescription="Layer5's cloud native application and infrastructure management"
               repoLink="https://github.com/layer5io"
               repoLive="https://layer5.io/"
               howManyPr="1"
               logo={layer5Logo}
-              prLink="https://github.com/layer5io/layer5/pull/4252"
+              prLink="https://github.com/layer5io/layer5/pulls?q=is%3Apr+author%3Asayyedarib"
             />
           </li>
         </ul>
